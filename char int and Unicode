@@ -1,0 +1,34 @@
+public class CharTest {
+    public static  void main(String[] args)
+    {
+        //直接指定单个字符作为字符值
+        char aChar = 'a';
+        //使用转义字符来作为字符值
+        char enterChar ='\r';
+        int fk = enterChar;
+        System.out.println(fk);
+        System.out.println(enterChar);   //'\r'作为字符char型变量是000d赋给int时候只取d,变成13
+        //使用Unicode编码值来指定字符值
+        char ch = '\u9999';
+        //将输出一个'香'字符；
+        int chint = ch;
+        System.out.println(ch);
+        System.out.println(chint); //'\u9999'作为字符char型变量是香，赋给int时候去掉/u,变成39321
+        //定义一个'疯'字符值
+        char zhong = '疯';
+        //直接将与i个char变量当成int类型变量使用
+        int zhongValue = zhong;
+        System.out.println(zhong);
+        System.out.println(zhongValue);
+        //直接把一个0~65535范围内的int整数赋值给一个char变量
+        char c =97;
+        System.out.println(c);
+    }
+}
+
+笔记：Unicode可以用来表示字符值，格式为'\uXXXX'，其中XXXX代表一个十六进制的整数。如果直接把Unicode型字符赋值给一个整形变量，会只取'\u'后面的部分，
+并且为十进制。
+
+
+
+
