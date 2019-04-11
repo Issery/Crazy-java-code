@@ -1,0 +1,48 @@
+package School;
+
+/**
+ 
+ * Description:
+ 
+ * This program is used to practice.
+ 
+ * Program Name:
+ 
+ * Date:
+ 
+ * @author Issery
+ * @version 1.0
+ 
+ */
+ 
+ public class Room 
+ {
+     /**
+      
+      * 表达教室容量
+      
+      */
+    
+     public int capacity;
+
+      /**
+      
+      * 表达教室面积      
+      */
+   
+     public int square; 
+
+                                 
+     /**
+  
+    * Test类构造器的文档注释
+       
+    */
+ 
+      public Room(){}
+
+}
+
+
+Notes：包的名字叫School，Room类有两个成员变量，分别在他们的定义上一行给出对应注释。
+       在命令行使用这样的语句：javadoc -d api_doc -windowtitle 测试API -doctitle 学习javadoc -header 我的类 *Test.java  来生成叫 api_doc的包。
