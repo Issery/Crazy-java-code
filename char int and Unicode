@@ -26,7 +26,7 @@ public class CharTest {
     }
 }
 
-笔记：Unicode可以用来表示字符值，格式为'\uXXXX'，其中XXXX代表一个十六进制的整数。如果直接把Unicode型字符赋值给一个整形变量，会只取'\u'后面的部分，
+笔记：通过Unicode来表示字符值，格式为'\uXXXX'，其中XXXX代表一个十六进制的整数。如果直接把Unicode型字符赋值给一个整形变量，会只取'\u'后面的部分，
 并且为十进制。
 
 
