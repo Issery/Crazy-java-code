@@ -1,0 +1,12 @@
+public class ForEachTest {
+    public static void main(String[] args)
+    {
+            String[] books = {"轻量级 Java EE企业应用实战","疯狂java讲义","疯狂android讲义"};
+            //使用for each循环来遍历元素
+            //其中book将会自动迭代每个数组元素
+            for (String book:books)
+            {
+                System.out.println(book);
+            }
+    }
+}
