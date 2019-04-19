@@ -1,0 +1,15 @@
+public class PersonTest
+{
+    public static void main(String[] args)
+    {
+        Person p;
+        p = new Person();
+        //定义p变量的同时并为p变量赋值 Person p = new Person();
+        p.name = "李刚";
+        p.say("Java其实很简单！");
+        System.out.println(p.name);
+        Person p2 =p;
+        p.name = "刚刚";
+        System.out.println(p2.name);
+    }
+}
