@@ -9,7 +9,7 @@ public class PersonTest
         p.say("Java其实很简单！");
         System.out.println(p.name);
         Person p2 =p;
-        p.name = "刚刚";
+        p.name = "刚刚";   //修改堆里的值同样映射到引用，使其输出的属性随堆内存发生变化
         System.out.println(p2.name);
     }
 }
